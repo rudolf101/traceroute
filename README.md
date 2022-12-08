@@ -39,7 +39,7 @@ There is one supported flag `-m` or `--max-hops` for maximum hops, e.g. `-m 5`. 
 ```markdown
 > traceroute -w 3 -q 1 -m 16 google.com
 
-traceroute to google.com (173.194.222.100), 16 hops max, 60 byte packets
+traceroute to google.com (173.x.x.x), 16 hops max, 60 byte packets
  1  name (172.x.x.x)  0.317 ms
  2  name (192.x.x.x)  2.575 ms
  3  name (10.x.x.x)  23.911 ms
